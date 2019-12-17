@@ -1,6 +1,7 @@
 def square_array(array)
- array.each do |square|
-    puts "#{square}"
-  end 
+  new_array = []
+  array.each{|a| new_array.push(a*a)}
+  return new_array
+end
   # your code here
 end
